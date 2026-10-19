@@ -1,19 +1,17 @@
 package Sesion3A;
 
 public class Calculadora {
-	public static int suma(int a, int b) {
+	public static Integer suma(int a, int b) {
 		return a+b;
 	}
-	public static int resta(int a, int b) {
+	public static Integer resta(int a, int b) {
 		return a-b;
 	}
-	public static int multiplicacion(int a, int b) {
+	public static Integer multiplicacion(int a, int b) {
 		return a*b;
 	}
-	public static int division(int a, int b) {
-		if(b==0)
-			return -1;
-		else
+	public static Integer division(int a, int b) {
+		
 			return a/b;
 	}
 }
